@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synergic Pac</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="image/Synergia-Pac-favicon.png" type="image/x-icon">
+</head>
+<body>
+    <section class="home-page">
+        <div id="nav" class="home-page-nav">
+            <nav>
+                <div>
+                    <a href="index.html"><img src="image/synergic-pac-white-logo.png" alt="" id="logo"></a>
+                </div>
+                <div>
+                    <header>
+                        <span><span>+91 8744997335 </span></span>
+                        <span></span>
+                        <span>Udyog Vihar, Gurugram</span>
+                        <span><button><a href="contact.html">Contact</a></button></span>
+                    </header>
+                    <ul id="menu-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="service.html">Solutions & services</a></li>
+                        <li><a href="industries.html">industries</a></li>
+                        <li><a href="sustainablitiy.html">sustainable packaging</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About</a>
+                        </li>
+                    </ul>
+                    <div id="menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section class="home-page-front">
+              <video autoplay loop muted playsinline id="bg-video">
+                <source src="synergic-pac-video.mp4" type="video/mp4">
+              </video>
+              <section class="overlay"></section> 
+          <section>
+            <div>
+                <h1>PACKED WITH INNOVATION</h1>
+                  <p>Synergia Pac delivers innovative and efficient packaging solutions with industry-leading turn-around times.</p>
+            
+                <button class="btn" onclick="scrollToSection(event)">
+                    <a href="">Know More</a>
+                    <span class="icon-wrapper">
+                      <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </span>
+                  </button>
+           </div>
+          </section>
+        </section>
+        <section class="home-page-products">
+            <section>
+           <div>
+             <img src="image/top icons.png" alt="" data-aos="fade-right" data-aos-duration="3000">
+             <div>
+                 <p>Looking to elevate your packaging, enhance brand visibility, and connect
+                     with your customers effortlessly?
+                     </p>
+                 <button><a href="contact.html">Get In touch with us</a></button>
+             </div>
+           </div>
+            </section>
+             <section id="solution-and-service">
+                 <header>
+                     <div>
+                      <h1>SOLUTIONS</h1>
+                      <ul>
+                         <li class="DYNAMIC li list">Dynamic Labels</li>
+                         <li  class="FLEXIBLE li">Flexible Packaging</li>
+                          <li  class="BOXES li">Boxes & Monocartons</li>
+                          
+                        
+                          <!-- <li>SMART LAMINATES</li> -->
+                      </ul>
+                     </div>
+                     </header>
+                   <div class="product-slider">
+                   <a href="service.html">
+                     <section>
+                         <figure id="DYNAMIC"  class="product-slides">
+                             <section>
+                                 <img src="image/B.jpg" alt="">
+                             </section>
+                             <section>
+                                 <div>
+                                     <img src="image/B6.jpg" alt="">
+                                     <img src="image/B5.jpg" alt="">
+                                     <img src="image/B4.jpg" alt="">
+                                 </div>
+                                 <div>
+                                     <img src="image/B1.jpg" alt="">
+                                     <img src="image/B2.jpg" alt="">
+                                     <img src="image/B3.jpg" alt="">
+                                 </div>
+                                 
+                             </section>
+                         </figure>
+                        <figure id="FLEXIBLE"  class="product-slides">
+                         <section>
+                             <img src="image/C01.jpg" alt="">
+                         </section>
+                         <section>
+                             <div>
+                                 <img src="image/C2.jpg" alt="">
+                                 <img src="image/C3.jpg" alt="">
+                                 <img src="image/C4.jpg" alt="">
+                             </div>
+                             <div>
+                                 <img src="image/C5.jpg" alt="">
+                                 <img src="image/C1 (1).jpg" alt="">
+                                 <img src="image/C6.jpg" alt="">
+                             </div>
+                         </section>
+                         </figure>
+                         <figure id="BOXES" class="product-slides">
+                             <section>
+                                 <img src="image/S1.1.jpg" alt="">
+                             </section>
+                             <section>
+                                 <div>
+                                     <img src="image/05.jpg" alt="">
+                                     <img src="image/03.jpg" alt="">
+                                     <img src="image/02.jpg" alt="">
+                                 </div>
+                                 <div>
+                                     <img src="image/04.jpg" alt="">
+                                     <img src="image/06.jpg" alt="">
+                                     <img src="image/01.jpg" alt="">
+                                 </div>
+                             </section>
+                        </figure>
+                     </section>
+                   </a>
+                   </div>
+             </section>
+             <section>
+                <header>
+                    <h1>Solutions & Service</h1>
+                    <section>
+                        <div class="slider-index">
+                            <span id="currentIndex">01</span><span>-</span><span id="totalIndex">05</span>
+                        </div>
+                        <div class="slider-controls">
+                            <ion-icon id="prevButton" name="arrow-back-outline"></ion-icon>
+                            <ion-icon id="nextButton" name="arrow-forward-outline"></ion-icon>
+                        </div>
+                    </section>
+                </header>
+                <div class="slider-mobile">
+                    <figure class="slider-wrapper-mobile">
+                        <div class="slide-mobile">
+                            <img src="image/B.jpg" alt="Image 1">
+                            <div class="overlay-mobile">
+                                <h1>Dynamic Labels</h1>   
+                            </div>
+                        </div>
+                        <div class="slide-mobile">
+                            <img src="image/C01.jpg " alt="Image 1">
+                            <div class="overlay-mobile">
+                                <h1>Flexible Packaging</h1>
+                               
+                            </div>
+                        </div>
+                        <div class="slide-mobile">
+                            <img src="image/S1.1.jpg" alt="Image 1">
+                            <div class="overlay-mobile">
+                                <h1>Boxes & Monocartons</h1> 
+                            </div>
+                        </div>
+                        <div class="slide-mobile">
+                            <img src="image/solution4.jpg" alt="Image 1">
+                            <div class="overlay-mobile">
+                                <h1>Prototyping</h1>
+                            </div>
+                        </div>
+                        <div class="slide-mobile">
+                            <img src="image/solution5.jpg" alt="Image 1">
+                            <div class="overlay-mobile">
+                                <h1>Security Printing</h1>
+                            </div>
+                        </div>
+                        <div class="slide-mobile">
+                            <img src="image/solution6.jpg" alt="Image 1">
+                            <div class="overlay-mobile">
+                                <h1>Packaging Consulting</h1>
+                            </div>
+                        </div>
+                        <div class="slide-mobile">
+                            <img src="image/solution7.jpg" alt="Image 1">
+                            <div class="overlay-mobile">
+                                <h1>Packaging design</h1>
+                            </div>
+                        </div>
+                        <div class="slide-mobile">
+                            <img src="image/solution8.jpg" alt="Image 1">
+                            <div class="overlay-mobile">
+                                <h1>Supply Chain and Logistics</h1>
+                            </div>
+                        </div>
+                        <div class="slide-mobile">
+                            <img src="image/solution9.jpg" alt="Image 1">
+                            <div class="overlay-mobile">
+                                <h1>Packaging Compliance and Testing</h1>
+                            </div>
+                        </div>
+                        <div class="slide-mobile">
+                            <img src="image/solution10.jpg" alt="Image 1">
+                            <div class="overlay-mobile">
+                                <h1>Digital Packaging</h1>
+                              
+                            </div>
+                        </div>
+                        <div class="slide-mobile">
+                            <img src="image/solution11.jpg" alt="Image 1">
+                            <div class="overlay-mobile">
+                                <h1>Packaging Optimisation and Cost Reduction</h1>
+                            </div>
+                        </div>
+                    </figure>
+                </div>
+                <div>
+                    <button><a href="service.html">view more</a></button>
+                </div>
+            </section>
+          </section>
+         <section class="home-page-service">    
+             <article>
+                 <section>
+                     <h1>SERVICES</h1>
+                     <div class="home-page-service-cards">
+                        <div>
+                         <section  class="service-slide">
+                             <div class="service-card" onclick="location.href='service.html#Prototyping'">
+                                 <header>
+                                     <img src="image/solution4.jpg" alt="">
+                                 </header>
+                             <footer>
+                                 <div>
+                                     <h6>Prototyping</h6>
+                                 </div>
+                                 <button><a href="#Prototyping">Know more</a></button>
+                             </footer>
+                             </div>
+                             <div class="service-card" onclick="location.href='service.html#Security-Printing'">
+                                 <header>
+                                     <img src="image/04 (1).jpg" alt="">
+                                 </header>
+                             <footer>
+                                 <div>
+                                     <h6>Security Printing</h6>
+                                 </div>
+                                 <button><a href="#Security-Printing">Know more</a></button>
+                             </footer>
+                             </div>
+                             <div class="service-card" onclick="location.href='service.html#Consulting'">
+                                 <header>
+                                     <img src="image/01 (1).jpg" alt="">
+                                 </header>
+                             <footer>
+                                 <div>
+                                     <h6>Packaging Consulting</h6>
+                                 </div>
+                                 <button><a href="#Consulting">Know more</a></button>
+                             </footer>
+                             </div>
+                             <div class="service-card" onclick="location.href='service.html#Designing'">
+                                 <header>
+                                     <img src="image/02 (1).jpg" alt="">
+                                 </header>
+                             <footer>
+                                 <div>
+                                     <h6>Packaging Design</h6>
+                                 </div>
+                                 <button><a href="#Designing">Know more</a></button>
+                             </footer>
+                             </div>
+                         </section>
+                         <section class="service-slide">
+                             <div class="service-card" onclick="location.href='service.html#Supply-Chain-and-Logistics'">
+                                 <header>
+                                     <img src="image/05 (1).jpg" alt="">
+                                 </header>
+                             <footer>
+                                 <div>
+                                     <h6>Supply Chains and Logistics</h6>
+                                 </div>
+                                 <button><a href="#Supply-Chain-and-Logistics">Know more</a></button>
+                             </footer>
+                             </div>
+                             <div class="service-card" onclick="location.href='service.html#Packaging-Compliance-and-Testing'">
+                                 <header>
+                                     <img src="image/06 (1).jpg" alt="">
+                                 </header>
+                             <footer>
+                                 <div>
+                                     <h6>Packaging Compliance and Testing</h6>
+                                 </div>
+                                 <button><a href="#Packaging-Compliance-and-Testing">Know more</a></button>
+                             </footer>
+                             </div>
+                             <div class="service-card" onclick="location.href='service.html#Digital-Packaging'">
+                                 <header>
+                                     <img src="image/Digital Packaging.jpg" alt="">
+                                 </header>
+                             <footer>
+                                 <div>
+                                     <h6>Digital Packaging</h6>
+                                 </div>
+                                 <button><a href="#Digital-Packaging">Know more</a></button>
+                             </footer>
+                             </div>
+                             <div class="service-card" onclick="location.href='service.html#Packaging-Optimization-and-Cost-Reduction'">
+                                 <header>
+                                     <img src="image/08.jpg" alt="">
+                                 </header>
+                             <footer>
+                                 <div>
+                                     <h6>Packaging Optimisation and Cost
+                                         Reduction
+                                     </h6>
+                                 </div>
+                                 <button><a href="#Packaging-Optimization-and-Cost-Reduction">Know more</a></button>
+                             </footer>
+                             </div>
+                         </section>
+                        </div>
+                     </div>
+                 </section>
+                 <div id="service-btn">
+                     <!-- <button id="service-prev"><ion-icon name="chevron-back-outline"></ion-icon></button> -->
+                     <button id="service-next"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+                 </div>
+             </article>
+            
+         </section>
+         <section class="home-page-synergia-pac-content">
+             <div>
+                 <p>At Synergia Pac, we endeavour to have a positive impact on the
+                     printing and packaging industry. With a sincere dedication to
+                     innovative printing, sustainable packaging solutions, and more,
+                     we take pride in our collaborative approach, partnering with
+                     businesses of all sizes to transform their ideas into tangible realities.</p>
+                     <img src="image/Untitled-1.png" alt="">
+             </div>
+         </section>
+         <section class="home-page-content">
+             <section>
+                 <header>
+                     <h1>OUR STORIES - THE SYNERGIA PAC BLOG <span></span></h1>
+                 </header>
+                 <article id="blog-container">
+                     <div class="blog-card">
+                        <a href="blog1.html"> <div>
+                            <h1>Leveraging HP Indigo
+                                Technology for Superior
+                                Packaging</h1>
+                                <span>Author: Raman Anandchahal</span>
+                            <p>Experience enhanced productivity and
+                                rapid speeds with the HP Indigo 6K Digital
+                                Press, the leading narrow-web printing
+                                solution for digital labels and packaging
+                                This innovative press...</p>
+                           
+                                <button class="btn" onclick="window.location.href='blog1.html'">
+                                   <a href="#">Read more</a>
+                                   <span class="icon-wrapper">
+                                     <ion-icon name="arrow-forward-outline"></ion-icon>
+                                   </span>
+                                 </button>
+                            <!--  -->
+                        </div>
+                        <header>
+                            <img src="image/Blog 7.jpg" alt="">
+                        </header></a>
+                     </div>
+                     <div class="blog-card">
+                         <a href="blog2.html">
+                            <div>
+                                <h1>Optimise packaging for supply chain efficiency with Synergia Pac</h1>
+                                <span>Author: Bhavv Chawla</span>
+                               <p>Are you tired of dealing with inefficient packaging that’s costing your business time and money? Optimising your packaging...</p>                            
+                                <button class="btn"  onclick="window.location.href='blog2.html'">
+                                   <a href="">Read more</a>
+                                   <span class="icon-wrapper">
+                                     <ion-icon name="arrow-forward-outline"></ion-icon>
+                                   </span>
+                                 </button>
+                            </div>
+                            <header>
+                                <img src="image/Blog 5.jpg" alt="">
+                            </header>
+                         </a>
+                     </div>
+                     <div class="blog-card">
+                         <a href="blog3.html">
+                            <div>
+                                <h1>Top packaging mistakes to avoid for small businesses</h1>
+                                <span>Author: Saqib Jamshed</span>
+                                <p>Avoid common pitfalls like inadequate protection, excessive material usage, poor labelling, and insufficient testing to prevent damage, waste, and regulatory issues in packaging...</p>
+                                <button class="btn"  onclick="window.location.href='blog3.html'">
+                                   <a href="blog3.html">Read more</a>
+                                   <span class="icon-wrapper">
+                                     <ion-icon name="arrow-forward-outline"></ion-icon>
+                                   </span>
+                                 </button>
+                            </div>
+                            <header>
+                               
+                                <img src="image/Blog 6.jpg" alt="">
+                            </header>
+                         </a>
+                     </div>
+                 </article>
+                 <section>
+                     <span></span><span></span><span></span>
+                 </section>
+                 <div class="blog-controls">
+                   <!-- <button id="prev"><ion-icon name="chevron-back-outline"></ion-icon></button> -->
+                   <button id="next"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+                 </div>
+                 <!-- <section>
+                     <button>View more</button>
+                    </section> -->
+             </section>
+             <section>
+                 <article>
+                     <h1>THE SYNERGIA PAC ADVANTAGE</h1>
+                     <section>
+                         <div class="content-card">
+                            <div>
+                             <img src="image/Artboard 1@4x.png" alt="">
+                             <h4>Extensive Substrate Selection</h4>
+                             <p>Explore limitless specialty substrates
+                                 designed to make your brand shine
+                                 on the shelf.</p>
+                            </div>
+                            <span class="ripple"></span>
+                         </div>
+                         <div class="content-card">
+                           <div>
+                             <img src="image/Artboard 1 copy@4x.png" alt="">
+                             <h4>Cutting-Edge Technology</h4>
+                             <p>Enjoy superior quality and
+                                 consistency in every product.</p>
+                           </div>
+                             <span class="ripple"></span>
+                         </div>
+                         <div class="content-card">
+                            <div>
+                             <img src="image/Artboard 1 copy 2@4x.png" alt="">
+                             <h4>Flexible Order Quantities</h4>
+                             <p>Eliminate the need for excess inventory
+                                 and embrace design flexibility, perfect
+                                 for testing new products.</p>
+                            </div>
+                            <span class="ripple"></span>
+                         </div>
+                     </section>
+                 </article>
+             </section>
+             <section>
+                <div>
+                 <h1>COMMON QUESTIONS AND HELPFUL ANSWERS</h1>
+                 <div class="divs">
+                     <h4>How do I place an order?</h4>
+                     <button class="slider">
+                        <ion-icon name="add-outline"></ion-icon>
+                     </button>
+                 </div>
+                   <p>You can place an order by writing an email to us or contacting our sales team. For assistance, call us at +91 8595852495 or write to us at info@synergiapac.com for any queries or support.</p>
+                   <div class="divs">
+                     <h4>What types of packaging do you offer?</h4>
+                     <button class="slider">
+                        <ion-icon name="add-outline"></ion-icon>
+                     </button>
+                 </div>
+                 <p>We offer a variety of packaging solutions, including premium boxes and monocartons, custom-printed labels, flexible pouches, and durable laminated tubes. Tailored for industries like cosmetics, food, and pharmaceuticals, our packaging is customisable with high-quality printing, eco-friendly materials, and special finishes to enhance your product's functionality and brand appeal.</p>
+                   <div class="divs">
+                     <h4>What is the typical turn-around time for orders?</h4>
+                     <button class="slider">
+                        <ion-icon name="add-outline"></ion-icon>
+                     </button>
+                 </div>
+                 <p>Our typical turn-around time for orders is 5-7 business days. However, this timeline may vary depending on the size, complexity, and level of customisation required for your order. For highly customised packaging or larger quantities, additional time may be needed to ensure the highest quality standards are met. We also offer expedited services for urgent projects, subject to feasibility. Once we receive your order details, we will provide a clear and accurate timeline to meet your specific requirements. Our team is committed to delivering your packaging promptly while maintaining exceptional quality</p>
+                   <div class="divs">
+                     <h4>How do you determine pricing for custom packaging?</h4>
+                     <button class="slider">
+                        <ion-icon name="add-outline"></ion-icon>
+                     </button>
+                 </div>
+                 <p>Our custom packaging pricing is based on size, material choice (e.g., recycled paper or biodegradable films), design complexity, and order quantity. Special finishes or advanced printing may also affect costs. Contact us with your project details for a tailored quote!</p>
+                   <div class="divs">
+                     <h4>Do you provide design services for custom packaging?</h4>
+                     <button class="slider">
+                        <ion-icon name="add-outline"></ion-icon>
+                     </button>
+                 </div>
+                 <p>Yes, our expert design team collaborates closely with you to bring your custom packaging ideas to life, from concept creation to production-ready artwork. Additionally, our partnerships with leading design studios and advertising agencies give us a creative edge, ensuring packaging that not only aligns with your brand but also elevates it to stand out in the market. Leveraging advanced technologies like the HP Indigo 6K, we deliver stunning, high-quality designs that make a lasting impact.</p>
+                   <div class="divs">
+                     <h4>Are your packaging products environmentally friendly?</h4>
+                     <button class="slider">
+                        <ion-icon name="add-outline"></ion-icon>
+                     </button>
+                 </div>
+                 <p>At Synergia Pac, we offer a wide range of environmentally friendly substrates, enabling brands to produce high-quality, sustainable packaging. Options include recycled paper and cardstock, FSC-certified papers from responsibly managed forests, and biodegradable films like PLA. Recyclable materials such as mono-plastics, sugarcane bagasse paper, and durable Kraft paper offer versatile, eco-conscious solutions. Innovative substrates like stone paper, made from calcium carbonate, and PVC-free materials further enhance sustainability. Additionally, recycled PET (rPET) films provide flexible, durable packaging options. These substrates ensure vibrant prints while meeting the growing demand for environmentally friendly packaging.</p>
+                   <div class="divs">
+                     <h4>What should I do if I receive a damaged package?</h4>
+                     <button class="slider">
+                        <ion-icon name="add-outline"></ion-icon>
+                     </button>
+                 </div>
+                 <p>If you receive a damaged package, we understand how disappointing that can be and are here to help. Please reach out to our customer service executive at +91 8595852495 within 48 hours of receiving your order, and we will work with you to resolve the issue quickly, whether through a return or a replacement.</p>
+                   <div class="divs">
+                     <h4>What materials are your packaging products made from?</h4>
+                     <button class="slider">
+                        <ion-icon name="add-outline"></ion-icon>
+                     </button>
+                 </div>
+                 <p>Our packaging solutions are crafted using a range of materials specifically chosen for their compatibility with the HP Indigo 6K digital press. These include premium cardboard and paper for high-quality prints, as well as biodegradable options like PLA films and sugarcane bagasse paper, ensuring both vibrant designs and sustainability. We also offer recyclable materials and eco-conscious substrates like Kraft paper and FSC-certified paper, meeting the demands of environmentally responsible packaging without compromising on precision and quality.</p>
+                </div>
+             </section>
+             <section class="home-page-content-client-logo">
+                 <header><h1>Trusted by Industry Leaders</h1></header>
+                 <figure id="client-slider">
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 2@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 3@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 4@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 5@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 6@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 7@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 8@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 9@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Untitled-1.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 11@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 12@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 13@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 14@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 15@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 16@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 17@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 18@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 19@4x.png" alt="">
+                     </div>
+                     <div class="client-slide">
+                         <img src="Client logo/Artboard 2 copy 20@4x.png" alt="">
+                     </div>
+                 </figure>
+             </section> 
+             <section class="home-page-content-contact">
+                 <header>
+                     <h1>Contact Us</h1>
+                 </header>
+               <section>
+                 <div>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2734.5847049626273!2d77.08410097421738!3d28.506279589805082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d193a35fbffff%3A0x7ca4aa994e071f49!2sSynergia%20Pac%20Pvt.%20Ltd.!5e1!3m2!1sen!2sin!4v1731745583202!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 </div>
+                 <!-- <form id="myForm">
+                    <div>
+                      <input type="text" name="full-name" placeholder="Full Name">
+                      <p class="error-message">Enter the full name</p>
+                    </div>
+                    <div>
+                        <div>
+                            <select name="country-code" id="countryCode">
+                                <option value="+91">+91 India</option>
+                                <option value="+44">+44 Unitied Kingdom</option>
+                                <option value="+1">+ 1 Canada</option>
+                                <option value="+61">+61 Australia</option>
+                                <option value="+49">+49 Germany</option>
+                                <option value="+33">+33 France</option>
+                                <option value="+86">+86 China</option>
+                                <option value="+81">+81 Japan</option>
+                                <option value="+55">+55 Brazil</option>
+                                <option value="+52">+52 Mexico</option>
+                                <option value="+7">+7 Russia</option>
+                                <option value="+39">+39 Italy</option>
+                              </select>
+                            <input type="text" name="phone-number" placeholder="Phone Number" id="phoneNumber">
+                            <p class="error-message">Phone number must be 10 digits</p>
+                        </div>
+
+                      
+                    </div>
+                    <div>
+                      <div>
+                        <input type="email" name="email-address" placeholder="Email Address">
+                        <p class="error-message">Enter a email</p>
+                      </div>
+                      <div>
+                        <input type="text" name="company" placeholder="Company">
+                        <p class="error-message">Enter the company</p>
+                      </div>
+                    </div>
+                    <div>
+                      <textarea name="message" placeholder="Message"></textarea>
+                      <p class="error-message">Enter the message</p>
+                    </div>
+                    <div>
+                      <button type="submit">SUBMIT</button>
+                    </div>
+                  </form> -->
+                  <form id="myForm" action="/api/contact" method="post">
+                    <div>
+                      <input type="text" name="full-name" placeholder="Full Name" />
+                      <p class="error-message">Enter the full name</p>
+                    </div>
+                    <div>
+                      
+                        <input
+                          type="text"
+                          name="phone"
+                          placeholder="Phone Number"
+                          id="phoneNumber"
+                        />
+                        <p class="error-message">Phone number must be 10 digits</p>
+                     
+                    </div>
+                    <div>
+                      <div>
+                        <input
+                          type="email"
+                          name="email-address"
+                          placeholder="Email Address"
+                        />
+                        <p class="error-message">Enter a email</p>
+                      </div>
+                      <div>
+                        <input type="text" name="company" placeholder="Company" />
+                        <p class="error-message">Enter the company</p>
+                      </div>
+                    </div>
+                    <div>
+                      <textarea name="message" placeholder="Message"></textarea>
+                      <p class="error-message">Enter the message</p>
+                    </div>
+                    <div>
+                      <button type="submit"><span>Submit</span></button>
+                    </div>
+                  </form>
+                </section>
+             </section>
+
+         </section>
+         <footer class="home-page-footer">
+            <div>
+             <section>
+                 <img src="image/synergic-pac-white-logo.png" alt="">
+                 <div>
+                  
+                 <p>Synergia Pac is a comprehensive packaging solutions provider with expertise in design, consulting, prototyping, and security printing. With a growing presence in Gurgaon, Jaipur, Chandigarh, and Lucknow, we cater to startups, SMEs, MNCs, advertising agencies, and more, delivering tailored solutions for diverse industries.</p>
+                 </div>
+             </section>
+             <section>
+                 <ul>
+                    <li><a href="index.html">Home</a></li>
+                     <li><a href="service.html">Solutions & services</a></li>
+                     <li><a href="index.html">industries</a></li>
+                     <li><a href="sustainablitiy.html">sustainable packaging</a></li>
+                     <li><a href="about.html">about</a></li>
+                     <li><a href="contact.html">contact</a></li>
+                 </ul>
+                 <ul>
+                     <li>+91 8744997735</li>
+                     <li><a href="#">info@synergiapac.com</a></li>
+                     <li><span>P-1/19, FF, Jacaranda Marg</span><span>DLF City Phase-2 Gurgaon</span><span>Haryana- 122 002, India</span></li>
+                     <!-- <li></li>
+                     <li></li> -->
+                     <div>
+                         <ion-icon name="logo-facebook"></ion-icon>
+                         <ion-icon name="logo-linkedin"></ion-icon>
+                         <ion-icon name="logo-instagram"></ion-icon>
+                     </div>
+                 </ul>
+                 
+             </section>
+             <section>
+                <img src="image/synergic-pac-white-logo.png" alt="">
+                <div>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
+                
+             </section>
+            </div>
+         </footer>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>

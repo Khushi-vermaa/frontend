@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="image/Synergia-Pac-favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <section class="contact-page">
+      <nav class="contact-page-nav"></nav>
+      <section class="contact-page-contact">
+        <section>
+          <div>
+            <h1>Start Your Packaging Journey</h1>
+            <h2>“Got questions or ideas? We’re just a message away let’s connect & bring your vision to life!”</h2>
+          </div>
+          <!-- <form id="myForm">
+                    <h1>Contact Us</h1>
+                    <div>
+                      <div>
+                        <input type="text" name="full-name" placeholder="Full Name">
+                      <p class="error-message">Enter the full name</p>
+                      </div>
+                    </div>
+                    <div>
+                        <div>
+                            <input type="number" name="phone-number" placeholder="Phone Number">
+                            <p class="error-message">Phone number must be 10 digits</p>
+                        </div>
+                    </div>
+                    <div>
+                      <div>
+                        <input type="email" name="email-address" placeholder="Email Address">
+                        <p class="error-message">Enter a email</p>
+                      </div>
+                      <div>
+                        <input type="text" name="company" placeholder="Company">
+                        <p class="error-message">Enter the company</p>
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        <textarea name="message" placeholder="Message"></textarea>
+                      <p class="error-message">Enter the message</p>
+                      </div>
+                    </div>
+                    <div>
+                      <button type="submit">SUBMIT</button>
+                    </div>
+                  </form> -->
+          <form id="myForm" action="/api/contact" method="post">
+            <h1>Contact us</h1>
+            <div>
+              <input type="text" name="full-name" placeholder="Full Name" />
+              <p class="error-message">Enter the full name</p>
+            </div>
+            <div>
+              
+                <input
+                  type="text"
+                  name="phone"
+                  placeholder="Phone Number"
+                  id="phoneNumber"
+                />
+                <p class="error-message">Phone number must be 10 digits</p>
+           
+            </div>
+            <div>
+              <div>
+                <input
+                  type="email"
+                  name="email-address"
+                  placeholder="Email Address"
+                />
+                <p class="error-message">Enter a email</p>
+              </div>
+              <div>
+                <input type="text" name="company" placeholder="Company" />
+                <p class="error-message">Enter the company</p>
+              </div>
+            </div>
+            <div>
+              <textarea name="message" placeholder="Message"></textarea>
+              <p class="error-message">Enter the message</p>
+            </div>
+            <div>
+              <button type="submit"><span>SUBMIT</span></button>
+            </div>
+          </form>
+        </section>
+      </section>
+      <section class="contact-page-detail">
+        <section>
+          <div>
+            <h1>Get In Touch</h1>
+            <address>324, Udyog Vihar II Rd Phase II,Udyog Vihar,</address>
+            <address>Sector 20, Gurugram, Haryana 122002</address>
+          </div>
+          <div>
+            <span>Call Us +91 8744997735</span>
+            <span>Email: info@synergiapac.com</span>
+          </div>
+        </section>
+      </section>
+      <section class="contact-page-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2734.5847049626273!2d77.08410097421738!3d28.506279589805082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d193a35fbffff%3A0x7ca4aa994e071f49!2sSynergia%20Pac%20Pvt.%20Ltd.!5e1!3m2!1sen!2sin!4v1731745583202!5m2!1sen!2sin"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <footer class="contact-page-footer"></footer>
+    </section>
+    <script src="script/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
